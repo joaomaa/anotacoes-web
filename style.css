@@ -1,0 +1,81 @@
+p {
+    color: blue;
+}
+
+#importante {
+    background-color: yellow;
+}
+
+.destaque {
+    color: red;
+}
+
+.fundo-rosa {
+    background-color: pink;
+}
+
+* {
+    text-transform: uppercase;
+}
+
+div p {
+    font-style: italic;
+}
+
+div:first-child {
+    color: red;
+}
+
+div {
+    background-color: aquamarine;
+}
+
+.fundo-rosa p {
+    color: brown;
+}
+
+.destaque strong {
+    color: blueviolet;
+}
+
+
+div > p {
+    text-decoration: underline;
+    padding: 10px;
+}
+
+li > a {
+    text-decoration: overline;
+}
+
+a[id~="Consoles"] {
+    background-color: green;
+}
+
+[href*="login"] {
+    color: white;
+}
+
+a:hover {
+    color: orange;
+}
+
+body {
+    width: 400px;
+    margin: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: black;
+    
+}
+
+h1 {
+    background-color: blue;
+}
+
+button {
+    padding: 20px;
+    border-color: blueviolet;
+}
